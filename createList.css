@@ -14,10 +14,19 @@
     background-color: #DFCAA0;
 }
 
+.box{
+    width: 800vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
 .header{
-    position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
     top: 70px;
     width: 480px;
 
@@ -27,9 +36,16 @@
 }
 
 .compControls{
+    display: flex;
+    flex-direction: column;
     margin-top: 40px;
     margin-right: auto;
     margin-left: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
 }
 
 .componentButton{
@@ -44,4 +60,34 @@
     background-color: #878871;
     border: 3px solid #878871;
     border-radius: 12px;
+    
+    cursor: pointer;
+}
+.componentButton:hover{
+    background-color: #999b7e;
+}
+
+.componentLabel{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 15px;
+
+    height: 40px;
+    width: 650px;
+
+    background-color: #828554;
+    border: 3px solid #828554;
+    border-radius: 12px;
+}
+
+.controls{
+    position: relative;
+}
+
+.returnButton{
+    position: relative;
+    cursor: pointer;
 }

@@ -1,24 +1,47 @@
 <title>Create your list</title>
 <link rel="stylesheet" href="createList.css">
+<script src="createList.js"></script>
 
 <body style="background: #f5f5dc;">
 
     <div class="container">
 
-        <div class="header"><h2>Configuration Menu</h2></div>
+        <div class="box">
 
-        <div class="compControls">
-            <button class="componentButton">CPU:</button>
-            <button class="componentButton">GPU:</button>
-            <button class="componentButton">RAM:</button>
-            <button class="componentButton">Mainboard:</button>
-            <button class="componentButton">Case:</button>
-            <button class="componentButton">Power:</button>
-        </div>
+            <div class="header"><h2>Configuration Menu</h2></div>
 
-        <div class="controls">
-            <button class="returnButton">Return to MainMenu.</button>
-            <button class="saveButton">Save list.</button>
+            <div class="compControls">
+                <div class="item">
+                    <button class="componentButton">CPU:</button>
+                    <div class="componentLabel"></div>
+                </div>
+                <div class="item">
+                    <button class="componentButton">GPU:</button>
+                    <div class="componentLabel"></div>
+                </div>
+                <div class="item">
+                    <button class="componentButton">RAM:</button>
+                    <div class="componentLabel"></div>
+                </div>
+                <div class="item">
+                    <button class="componentButton">Mainboard:</button>
+                    <div class="componentLabel"></div>
+                </div>
+                <div class="item">
+                    <button class="componentButton">Case:</button>
+                    <div class="componentLabel"></div>
+                </div>
+                <div class="item">
+                    <button class="componentButton">Power:</button>
+                    <div class="componentLabel"></div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="returnButton" id="returnBtn">Return to MainMenu.</button>
+                <button class="saveButton">Save list.</button>
+            </div>
+
         </div>
     
     </div>
