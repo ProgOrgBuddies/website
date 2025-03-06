@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+    height: 80vh;
+    border: 3px solid #DFCAA0;
+    border-radius: 12px;
+
+    background-color: #DFCAA0;
+}
+
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    width: 480px;
+
+    border: 3px solid #71887e;
+    border-radius: 12px;
+    background-color: #71887e;
+}
+
+.compControls{
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.componentButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    height: 40px;
+    width: 100px;
+
+    background-color: #878871;
+    border: 3px solid #878871;
+    border-radius: 12px;
+}
